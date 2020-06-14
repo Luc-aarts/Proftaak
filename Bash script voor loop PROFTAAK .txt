@@ -1,0 +1,6 @@
+#!/bin/sh  
+while true  
+do  
+  http GET 172.16.100.22:8005/api/v1/database/testdb
+  sleep 3600  
+done
